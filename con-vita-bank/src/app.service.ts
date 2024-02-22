@@ -13,9 +13,6 @@ export class AppService {
     bankList.push(pbObject);
     bankList.push(new Bank("AlphaBank", "777111", "Odesa"));
     return JSON.stringify(bankList);
-    // return bankList.map( (bank) =>{
-    //  //return `${bank.name}  ${bank.mfo}  ${bank.addreess}`;
-    //   return JSON.stringify(bank);
-    // }).toString();
+    
   }
 }
