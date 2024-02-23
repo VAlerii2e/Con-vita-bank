@@ -1,4 +1,4 @@
-export class BankCard 
+export class BankCards 
 {
     private name: string;
     private card_number: string;
@@ -6,7 +6,8 @@ export class BankCard
     private CVV:number;
     private money:number;
 
-    constructor(name: string, card_number: string, expiration_date: string,  CVV:number, money:number)
+    
+    constructor(name: string = "", card_number: string = "", expiration_date: string = "",  CVV:number = 0, money:number = 0)
     {
         this.name = name;
         this.card_number = card_number;

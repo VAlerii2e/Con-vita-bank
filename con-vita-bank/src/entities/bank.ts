@@ -1,4 +1,4 @@
-export class Bank {
+export class Banks {
     name: string;
     mfo: string;
     addreess: string;

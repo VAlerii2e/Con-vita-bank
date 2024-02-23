@@ -10,8 +10,17 @@ export class AppController {
     return this.appService.getHello();
   }
 
-  @Get('yarik')
+  @Get('Bank')
   showBanksList(): string {
     return this.appService.getBanksList();
   }
+  @Get('BankCard')
+  showBankCardsList(): string {
+    return this.appService.getBankCardsList();
+  }
+  @Get('BankSubcard')
+  showBankSubcardsList(): string {
+    return this.appService.getBankSubcardsList();
+  }
+  
 }
